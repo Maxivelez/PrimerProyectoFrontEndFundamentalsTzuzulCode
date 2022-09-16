@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#caja {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.div {
+  width: 284px;
+  height: 417px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+
+
+.caja1-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 104px;
+  min-height: 25px;
+  background-color: #4cc700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  height: 42px;
+  width: 104;
+  color: #000;
+  font-size: 18, 5px;
+  font-family: "Inter", sans-serif;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 283px;
+  min-height: 40px;
+  color: #fff;
+  background-color: #4cc700;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
+  border-radius: 0px 0px 8px 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #000;
+}
+.precio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  height: 42px;
+  width: 104;
+  color: #000;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.cuotas {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-family: "Inter", sans-serif;
+  height: 42px;
+  width: 100%;
+  font-size: 10px;
+}
+.img-zap {
+  width: 263px;
+  height: 208px;
+}
+.img-planta {
+  width: 284px;
+  height: 336px;
+}
+#caja2 {
+  overflow: hidden;
+  background-color: #fbf2e9;
+}
+.div2-p1 {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 16px;
+  color: #845733;
+  margin-left: 15px;
+}
+.div2-p2 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  align-items: center;
+  height: 20px;
+  color: #766868;
+  margin-left: 15px;
+}
+.caja-estrella {
+  margin-left: 6px;
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.estrella {
+  width: 10px;
+  height: 9px;
+  color: #dec804;
+}
+.valoracion {
+  font-size: 10px;
+  display: inline-block;
+  color: #845733;
+  margin-left: 5px;
+}
+.ver-mas {
+  color: #845733;
+}
+#caja3 {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+
+.caja3-h2 {
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 6px;
+  font-weight: 400px;
+}
+
+.span {
+  position: absolute;
+  bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+}
